@@ -22,9 +22,9 @@
 
 6. **$N$**  
    - Total populasi:  
-   $$
-     N = S + V + Vm + I + R
-   $$
+$$
+N = S + V + Vm + I + R
+$$
 
 ---
 
