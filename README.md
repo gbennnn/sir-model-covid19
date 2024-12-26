@@ -7,33 +7,33 @@
    - Individu yang rentan terhadap infeksi karena belum terinfeksi, belum divaksinasi, atau belum memiliki imunitas.
    - Rentan terhadap infeksi melalui kontak dengan individu yang terinfeksi $I$.
 
-2. **\( V \) (Vaccinated)**  
+2. **$V$ (Vaccinated)**  
    - Individu yang telah divaksinasi dan memiliki kekebalan parsial terhadap penyakit.  
    - Masih memiliki kemungkinan kecil untuk terinfeksi jika terkena paparan.
 
-3. **\( Vm \) (Misinformed Susceptible)**  
+3. **$Vm$ (Misinformed Susceptible)**  
    - Individu yang rentan terhadap infeksi karena dipengaruhi oleh misinformasi vaksin sehingga menolak vaksinasi.
 
-4. **\( I \) (Infected)**  
-   - Individu yang terinfeksi COVID-19 dan dapat menularkan penyakit kepada individu rentan (\( S \), \( V \), \( Vm \)).
+4. **$I$ (Infected)**  
+   - Individu yang terinfeksi COVID-19 dan dapat menularkan penyakit kepada individu rentan ($S$, $V$, $Vm$).
 
-5. **\( R \) (Recovered)**  
+5. **$R$ (Recovered)**  
    - Individu yang telah pulih dari infeksi dan memiliki kekebalan.
 
-6. **\( N \)**  
+6. **$N$**  
    - Total populasi:  
-     \[
+     $
      N = S + V + Vm + I + R
-     \]
+     $
 
 ---
 
 ### **Persamaan Diferensial Model**
 
-#### 1. **Persamaan untuk Susceptible (\( S \))**  
-\[
+#### 1. **Persamaan untuk Susceptible ($S$)**  
+$$
 \frac{dS}{dt} = \alpha N - \frac{\beta_1 S I}{N} - \gamma_1 S - \gamma_2 S - \mu S
-\]
+$$
 - \( \alpha N \): Laju kelahiran populasi baru yang masuk ke \( S \).  
 - \( \frac{\beta_1 S I}{N} \): Infeksi yang terjadi pada individu rentan melalui kontak dengan \( I \).  
 - \( \gamma_1 S \): Individu rentan yang beralih ke \( V \) karena divaksinasi.  
