@@ -3,9 +3,9 @@
 ---
 
 ### **Kompartemen dalam Model**
-1. **\( S \) (Susceptible)**  
+1. **$S$ (Susceptible)**  
    - Individu yang rentan terhadap infeksi karena belum terinfeksi, belum divaksinasi, atau belum memiliki imunitas.
-   - Rentan terhadap infeksi melalui kontak dengan individu yang terinfeksi (\( I \)).
+   - Rentan terhadap infeksi melalui kontak dengan individu yang terinfeksi $I$.
 
 2. **\( V \) (Vaccinated)**  
    - Individu yang telah divaksinasi dan memiliki kekebalan parsial terhadap penyakit.  
