@@ -1,11 +1,11 @@
 # **Model SIR dengan memperhitungkan dampak vaksinasi dan misinformasi vaksin terhadap penyebaran COVID-19**
-![kompartemen-model drawio](https://github.com/user-attachments/assets/f673765f-4234-4946-9968-b67983fd4521)
+![alt text](image.png)
 ---
 
 ### **Kompartemen dalam Model**
 1. **\( S \) (Susceptible)**  
    - Individu yang rentan terhadap infeksi karena belum terinfeksi, belum divaksinasi, atau belum memiliki imunitas.
-   - Rentan terhadap infeksi melalui kontak dengan individu yang terinfeksi ![image](https://github.com/user-attachments/assets/58053e32-2493-43f3-8472-0e6a02b9586f)
+   - Rentan terhadap infeksi melalui kontak dengan individu yang terinfeksi (I)
 .
 
 2. **\( V \) (Vaccinated)**  
@@ -84,9 +84,4 @@
 - **\( \alpha \):** Laju kelahiran.
 
 ---
-
-### **Langkah-Langkah untuk Implementasi**
-1. **Tentukan nilai parameter:** Kumpulkan data untuk menentukan nilai parameter seperti \( \beta \), \( \gamma \), dan \( \mu \).  
-2. **Gunakan metode numerik:** Model ini dapat diselesaikan menggunakan metode Euler, Runge-Kutta, atau perangkat lunak seperti Python (library SciPy) dan MATLAB.  
-3. **Simulasi:** Visualisasikan dinamika penyebaran penyakit dengan memplot perubahan setiap kompartemen terhadap waktu.  
 
