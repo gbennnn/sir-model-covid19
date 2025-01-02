@@ -1,5 +1,5 @@
 # **Model SIR dengan memperhitungkan dampak vaksinasi dan misinformasi vaksin terhadap penyebaran COVID-19**
-![alt text](image.png)
+![alt text](kompartemen-model.jpg)
 ---
 
 ### **Kompartemen dalam Model**
